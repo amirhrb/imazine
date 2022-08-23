@@ -43,19 +43,16 @@ code {
 .h_iframe-aparat_embed_frame {
   position: relative;
   width: 100%;
+  max-width: 440px;
   border-radius: 0.45rem;
   overflow: hidden;
   aspect-ratio: 16 / 9;
 }
-/* @media (min-width: 640px) {
-  .h_iframe-aparat_embed_frame {
-    width: 440px;
-  }
-} */
+
 .h_iframe-aparat_embed_frame .ratio {
   display: block;
   width: 100%;
-  height: auto;
+  height: 100%;
 }
 .h_iframe-aparat_embed_frame iframe {
   position: absolute;

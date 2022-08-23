@@ -14,15 +14,15 @@ const Details = () => {
   const matchedImages = allImages.find((item) => item.title === params.title);
   // console.log(matchedTitle);
   return (
-    <div className="flex flex-col justify-start items-center w-[80vw] h-[80%]">
+    <div className="flex flex-col justify-start items-center w-[80vw] h-[100%]">
       <div className="flex flex-col items-center">
         <h2 className="text-2xl">{matchedTitle.title.split("-").join(" ")}</h2>
         <Link to="/" className="btn btn-ghost">
           برگشت
         </Link>
       </div>
-      <Carousel images={matchedImages.images} />
       <Aparat matchedTitle={matchedTitle} />
+      <Carousel images={matchedImages.images} />
     </div>
   );
 };
