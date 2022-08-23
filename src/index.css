@@ -1,0 +1,66 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: yekan;
+  src: url("./sources/fonts/BYekan.ttf");
+  font-weight: 400;
+}
+@font-face {
+  font-family: yekan;
+  src: url("./sources/fonts/BYekan-Bold.ttf");
+  font-weight: 700;
+}
+@font-face {
+  font-family: sahel;
+  src: url("./sources/fonts/Sahel.ttf");
+  font-weight: 400;
+}
+@font-face {
+  font-family: sahel;
+  src: url("./sources/fonts/Sahel-Bold.ttf");
+  font-weight: 700;
+}
+* {
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+  font-family: yekan, sahel, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+    "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.h_iframe-aparat_embed_frame {
+  position: relative;
+  width: 100%;
+  border-radius: 0.45rem;
+  overflow: hidden;
+  aspect-ratio: 16 / 9;
+}
+/* @media (min-width: 640px) {
+  .h_iframe-aparat_embed_frame {
+    width: 440px;
+  }
+} */
+.h_iframe-aparat_embed_frame .ratio {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.h_iframe-aparat_embed_frame iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
