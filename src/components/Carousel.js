@@ -1,6 +1,6 @@
 import React from "react";
 
-const Carousel = ({ images }) => {
+const Carousel = ({ images, title }) => {
   return (
     <div
       className="
@@ -17,7 +17,7 @@ const Carousel = ({ images }) => {
             key={item}
             className="carousel-item rounded-box ml-2"
             src={item}
-            alt={item}
+            alt={title}
           />
         );
       })}

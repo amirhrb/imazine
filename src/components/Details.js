@@ -22,7 +22,7 @@ const Details = () => {
         </Link>
       </div>
       <Aparat matchedTitle={matchedTitle} />
-      <Carousel images={matchedImages.images} />
+      <Carousel images={matchedImages.images} title={matchedTitle.title} />
     </div>
   );
 };
