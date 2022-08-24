@@ -16,7 +16,7 @@ const Navbar = () => {
           to="/"
           className="w-32 btn btn-ghost normal-case text-3xl leading-3 font-[Aquire]"
         >
-          Imazine
+          Amozine
         </Link>
       </div>
     </div>
