@@ -4,7 +4,7 @@ import { HexGrid, Layout, Hexagon, Text } from "react-hexgrid";
 
 const HexaGrid = () => {
   return (
-    <div className="w-full max-w-xl flex justify-center">
+    <div id="map" className="w-full max-w-xl flex justify-center">
       <HexGrid width="100%" height="100%">
         <Layout size={{ x: 8, y: 8 }} origin={{ x: 0, y: 0 }} spacing={1.15}>
           <Link to="/">

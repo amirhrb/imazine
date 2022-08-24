@@ -11,6 +11,7 @@ const images = [
 const Introduce = () => {
   return (
     <div
+      id="teachers"
       className="w-full h-screen p-5 sticky z-30 top-0 
         flex flex-col items-center justify-center
         bg-gradient-to-t to-primary-focus from-neutral"

@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 //img
 import logo from "../sources/images/logo.PNG";
 
@@ -11,12 +12,12 @@ const Navbar = () => {
           alt="logo imazine"
           className="h-12 justify-self-start"
         />
-        <a
-          href="."
+        <Link
+          to="/"
           className="w-32 btn btn-ghost normal-case text-3xl leading-3 font-[Aquire]"
         >
           Imazine
-        </a>
+        </Link>
       </div>
     </div>
   );
