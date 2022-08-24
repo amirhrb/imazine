@@ -13,7 +13,7 @@ const Navbar = () => {
         />
         <a
           href="."
-          className="w-32 btn btn-ghost normal-case text-3xl leading-3 font-bold"
+          className="w-32 btn btn-ghost normal-case text-3xl leading-3 font-[Aquire]"
         >
           Imazine
         </a>
